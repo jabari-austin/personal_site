@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Rock+Salt');
+
+body {
+  /*background: beige;*/
+}
+
+.albums {
+  display: flex;
+	/* border: 5px solid green; */
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.album:hover {
+	/*width: 100%;*/
+	/*order: -5;*/
+}
+
+h1 {
+  font-size: 5em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2em;
+	/* border: solid; */
+  box-sizing: border-box;
+}
+
+.album {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 1%;
+  width: 20%;
+  padding: .5em;
+  font-family: 'Rock Salt', cursive;
+  box-sizing: border-box;
+}
+
+.thumb {
+  width: 100%;
+  border: solid;
+  margin: auto;
+  box-sizing: border-box;
+  border-radius: 2%;
+  padding: .2em;
+}
+
+.name {
+  color: lightgrey;
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 1.5em
+}
+
+.teenage {
+  color: #A4CBDF;
+  order: 2;
+  background: #ED404A;	
+}
+
+.rich {
+  color: #A26C2B;
+  order: 4;
+  background: #480A0D;
+}
+
+.coloring {
+  color: #04227B;
+  order: 4;
+  background: #FE7E73;
+}
+
+.lamar {
+  color: #EA050B;
+  order: 3;
+  background: #83384F;
+}
+
+.culture {
+  color:	#D0BF81;
+  order: 2;
+  background: #0C0C0C;
+}
+
+
+
+
+
